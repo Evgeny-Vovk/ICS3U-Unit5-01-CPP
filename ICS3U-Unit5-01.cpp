@@ -2,7 +2,7 @@
 //
 // Created by : Evgeny Vovk
 // Created on : November 2022
-// ICS3U-Unit4-07.cpp File, learning functions in C++.
+// ICS3U-Unit5-01.cpp File, learning functions in C++.
 
 #include <iostream>
 #include <string>
@@ -21,14 +21,13 @@ void fahrenheit() {
     fahrenheitAsFloat = 9.0 / 5.0 * celsiusAsFloat + 32;
     std::cout << celsiusAsFloat << "°C is equal to "
               << fahrenheitAsFloat <<"°F.";
-    }
-    catch (std::invalid_argument) {
+    } catch (std::invalid_argument) {
         std::cout << "Invalid input, please try again.";
     }
 
     std::cout << "\n\n\nDone.\n";
 }
 
-int main() {
+main() {
     fahrenheit();
 }
