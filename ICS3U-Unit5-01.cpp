@@ -7,11 +7,12 @@
 #include <iostream>
 #include <string>
 
-std::string(celsius);
-float celsiusAsFloat;
-float fahrenheitAsFloat;
 
 void fahrenheit() {
+    std::string(celsius);
+    float celsiusAsFloat;
+    float fahrenheitAsFloat;
+
     std::cout << "Enter a temperature (°C): ";
     std::cin >> celsius;
 
